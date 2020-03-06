@@ -108,58 +108,36 @@ dl {
   margin: 0 0 .5em 0;
 }
 // social media -recolouring for black footer
-.facebook, .twitter, .youtube, .soundcloud  {
-  background-color: #222222;
-}
-.x-colophon.bottom .x-social-global a {
-  color: #222222;
-}
-i.x-icon-facebook-square:before, i.x-icon-twitter-square:before, i.x-icon-youtube-square:before, i.x-icon-soundcloud:before {
-  background: #222222;
-  border-radius: 0%;
-}
-// i.x-icon-soundcloud:before
-.x-social-global {
-  text-align: left;
-}
+// .facebook, .twitter, .youtube, .soundcloud  {
+//   background-color: #222222;
+// }
+// .x-colophon.bottom .x-social-global a {
+//   color: #222222;
+// }
+// i.x-icon-facebook-square:before, i.x-icon-twitter-square:before, i.x-icon-youtube-square:before, i.x-icon-soundcloud:before {
+//   background: #222222;
+//   border-radius: 0%;
+// }
+// // i.x-icon-soundcloud:before
+// .x-social-global {
+//   text-align: left;
+// }
 
+//footer overrides - for new footer design
+// .survey-footer-container {
+  //   text-align: center;
+  //   max-width: 55%;
+  //   margin: auto;
+  //   padding-top: 1em;
+  // }
+  // .x-social-global a {
+    //   background-color: #222222;
+    // }
+    // .survey-footer {
+      //   background-color: antiquewhite;
+      // }
+      
 /* Youtube icon font-awesome fix */
 i.x-icon-youtube-square:before {
-	content: "\f167" !important;
-}
-//footer overrides
-.survey-footer-container {
-  text-align: center;
-  max-width: 55%;
-  margin: auto;
-  padding-top: 1em;
-}
-.x-social-global a {
-  background-color: #222222;
-}
-.survey-footer {
-  background-color: antiquewhite;
-}
-
-//ubermenu override to have submenus open with click
-.ubermenu-skin-vanilla .ubermenu-item-level-0 > span.ubermenu-target {
-  font-weight: 600;
-  color: #54585a;
-}
-.ubermenu-main .ubermenu-item-level-0 > span.ubermenu-target {
-  font-size: 18px;
-  padding: 0 10px;
-  line-height: 108px;
-}
-//ubermenu submenu - alignment and textsize - originally on the <a> needs now to be on the <span> in the submenu
-// .ubermenu .ubermenu-submenu-type-stack>.ubermenu-item-normal>span.ubermenu-target {
-//   padding-top: 0;
-//   padding-bottom: 30px;
-//   padding-left: 80px;
-// }
-// .ubermenu .ubermenu-submenu-type-stack>.ubermenu-item-normal>.ubermenu-target {
-//   padding-top: 10px;
-//   padding-bottom: 10px;
-//   font-size: 18px;
-//   color: #000;
-// }
+  content: "\f167" !important;
+} 
