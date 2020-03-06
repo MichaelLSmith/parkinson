@@ -1,0 +1,22 @@
+.front-page h2 {
+	color: $dark;
+}
+
+li {
+	margin-bottom: $spacer / 2;
+}
+
+h2,
+h3 {
+	color: $danger;
+}
+
+button:focus {
+	outline: 0;
+	box-shadow: 0 0 0 3px rgba($primary, 0.5);
+}
+
+::selection {
+	background: $primary;
+	color: $white;
+}

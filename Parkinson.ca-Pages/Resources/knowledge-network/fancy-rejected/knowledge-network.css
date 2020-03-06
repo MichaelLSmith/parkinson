@@ -1,0 +1,43 @@
+/* knowledge-network webinar */
+.webinar-group {
+  margin: 0 0 1em 0;
+}
+.block-border-red {
+  border: solid #d50032 10px;
+  text-align: center;
+  vertical-align: middle;
+  color: #d50032;
+	padding: .25em .75em;
+  font-size: 1.2em;
+  width: 125px;
+  height: 125px;
+}
+.block-border-grey {
+  border: solid #585858 10px;
+  text-align: center;
+  vertical-align: middle;
+  color: #585858;
+	padding: .25em .75em;
+  font-size: 1.3em;
+  width: 135px;
+  height: 135px;
+}
+.block-border-red > span, .block-border-grey > span {
+  font-weight: 700;
+}
+.parkinson-red-color {
+  color: #d50032;
+}
+.webinar-highlight {
+  text-align: center;
+  background-color: #e9e9e9;
+}
+.webinar-highlight p {
+  margin-bottom: .25em;
+}
+.webinar-preview {
+  margin-bottom: 1em;
+}
+.small-text span {
+  font-size: .75em;
+}

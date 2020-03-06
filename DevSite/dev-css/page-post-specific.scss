@@ -1,0 +1,165 @@
+/* page-post-specific.scss */
+
+
+/* Board Profiles - Alex */
+.x33 { text-align: center !important; }
+.x33 img { width: 100%; margin: 15px 0 0 0; }
+/* mobile */
+@media (max-width: 550px) {
+.x33 { width: 100%; }
+.archive-flex {
+    flex-direction: column;
+  }
+}
+/* other */
+@media (min-width: 550px) {
+.x33 { width: 30%; margin-right:3%; float:left; }
+}
+/* Board Profile Ends */ 
+
+/*Mind Over Matter*/
+.mind-table-row > td:first-child {
+  width: 15%;
+}
+.verticle-align-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mind-menu {
+  margin-bottom: 1em;
+}
+.mind-over-matter-map .single_location {
+  margin:auto;
+}
+@media (max-width: 550px) {
+  .mind-menu a {
+    /* display: inline-table; */
+    margin: 0.5em 0;
+    font-size: 75%;
+  }
+}
+/* Sask Edu Evnt */
+.date-grey-background {
+	background-color: hsl(200, 4%, 48%);
+	padding: .75em;
+	color: white;
+}
+/* Knowledge Network */
+.blue-background-knowledge, .red-background-knowledge  {
+  color: white;
+  text-align: center;
+  margin-bottom: .45em;
+  padding: .5em;
+  min-height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.4;
+}
+.blue-background-knowledge {
+  background-color: #075798;
+}
+.red-background-knowledge {
+  background-color: #d50032;
+}
+// .blue-background-knowledge h1, .red-background-knowledge h1 {
+//   color: white;
+// }
+.blue-background-knowledge:nth-child(1), .red-background-knowledge:nth-child(1) {
+  margin-top: 0;
+}
+/* single-local-offices */
+.profile-staff {
+    background-color: hsl(0, 0%, 91%);
+    padding: .75em .75em;
+    margin-bottom: 1em;
+  }
+  @media (max-width: 480px) {
+    .profile-staff {
+      flex-direction: column;
+    }
+      .profile-image-container {
+        margin-bottom: .5em;
+      }
+  }
+.profile-text-container {
+    max-width: 62%;
+}
+.profile-image-container {
+    margin-right: 1em;
+}
+/* park awareness page */
+.small-icons img {
+  max-width: 90px;
+}
+/* Custom Templates */
+.event-fields {
+  clear: both;
+}
+// access and wait times
+.access-info {
+  font-size: 1.2em;
+}
+.access-info h1 {
+  margin: 0;
+}
+.access-info * {
+  padding: .1em;
+}
+.info-grid {
+  max-width: 85%;
+  margin: 1.6em auto;
+  grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+  grid-auto-rows: 0fr;
+}
+.info-boxes {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
+  padding: 1em;
+  text-align: center;
+  display: table;
+  box-shadow: 8px 2px 9px hsl(225, 11%, 71%);
+}
+.text-highlight-blue, .text-highlight-green, .text-highlight-red {
+  font-size: 1.4em;
+  font-weight: 900;
+  line-height: .5;
+}
+.text-highlight-blue {
+  color: hsl(208, 100%, 34%);
+}
+.text-highlight-green {
+  color: hsl(95, 46%, 49%);
+}
+.text-highlight-red {
+  color: hsl(346, 100%, 42%);
+}
+.text-heading1 {
+  font-size: 2.5em;
+  font-weight: 900;
+}
+.text-heading2 {
+  font-size: 1.4em;
+  font-weight: 900;
+}
+@media (max-width: 768px) { 
+  .info-grid {
+    margin: 1em auto;
+  }
+}
+// c-opn
+.highlight-box-cyan{
+  background-color: $c-opn-cyan;
+  color: white;
+  padding: 2em;
+  max-width: 71%;
+  margin: 1.5em auto;
+  border-radius: 20px;
+}
+.c-opn-name-list h5 { 
+  color:$c-opn-green;
+}
+.c-opn-name-list-blue {
+  color: $c-opn-cyan;
+}

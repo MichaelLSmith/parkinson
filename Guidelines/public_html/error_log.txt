@@ -1,0 +1,199 @@
+[08-Oct-2019 20:19:03 UTC] PHP Warning:  Use of undefined constant parkinson - assumed 'parkinson' (this will throw an Error in a future version of PHP) in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/front-page/impact.php on line 4
+[08-Oct-2019 20:19:06 UTC] PHP Warning:  Use of undefined constant parkinson - assumed 'parkinson' (this will throw an Error in a future version of PHP) in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/front-page/impact.php on line 4
+[09-Oct-2019 14:41:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WPML\PB\Gutenberg\StringsInBlock\DOMHandler\mb_convert_encoding() in /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php:31
+Stack trace:
+#0 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php(18): WPML\PB\Gutenberg\StringsInBlock\DOMHandler\DOMHandle->getDom('\n<h2>What is Pa...')
+#1 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/class-html.php(24): WPML\PB\Gutenberg\StringsInBlock\DOMHandler\DOMHandle->getDomxpath('\n<h2>What is Pa...')
+#2 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/class-collection.php(26): WPML\PB\Gutenberg\StringsInBlock\HTML->find(Object(WP_B in /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php on line 31
+[09-Oct-2019 14:46:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WPML\PB\Gutenberg\StringsInBlock\DOMHandler\mb_convert_encoding() in /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php:31
+Stack trace:
+#0 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php(18): WPML\PB\Gutenberg\StringsInBlock\DOMHandler\DOMHandle->getDom('\n<h2>What is Pa...')
+#1 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/class-html.php(24): WPML\PB\Gutenberg\StringsInBlock\DOMHandler\DOMHandle->getDomxpath('\n<h2>What is Pa...')
+#2 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/class-collection.php(26): WPML\PB\Gutenberg\StringsInBlock\HTML->find(Object(WP_B in /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php on line 31
+[09-Oct-2019 15:59:41 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = '_wpml_transient__wpml_st_file_scan_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WPML_ST_Translations_File_Scan_Hooks->import_translations_files, WPML_ST_Translations_File_Queue->is_locked, WPML_Transient->get, get_option
+[09-Oct-2019 15:59:41 UTC] WordPress database error Commands out of sync; you can't run this command now for query INSERT IGNORE INTO wp_icl_strings (`language`, `context`, `gettext_context`, `domain_name_context_md5`, `name`, `value`, `status`) VALUES ('en', 'WPML', '', 'c9203e3110feb389a62b2f341a6c346a', 'Text for alternative languages for posts', 'This post is also available in: %s', 0) made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WPML_Autoregister_Save_Strings->shutdown, WPML_Autoregister_Save_Strings->persist
+[09-Oct-2019 16:00:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WPML\PB\Gutenberg\StringsInBlock\DOMHandler\mb_convert_encoding() in /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php:31
+Stack trace:
+#0 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php(18): WPML\PB\Gutenberg\StringsInBlock\DOMHandler\DOMHandle->getDom('\n<p class="has-...')
+#1 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/class-html.php(24): WPML\PB\Gutenberg\StringsInBlock\DOMHandler\DOMHandle->getDomxpath('\n<p class="has-...')
+#2 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/class-collection.php(26): WPML\PB\Gutenberg\StringsInBlock\HTML->find(Object(WP_B in /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php on line 31
+[09-Oct-2019 16:00:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WPML\PB\Gutenberg\StringsInBlock\DOMHandler\mb_convert_encoding() in /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php:31
+Stack trace:
+#0 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php(18): WPML\PB\Gutenberg\StringsInBlock\DOMHandler\DOMHandle->getDom('\n<p class="has-...')
+#1 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/class-html.php(24): WPML\PB\Gutenberg\StringsInBlock\DOMHandler\DOMHandle->getDomxpath('\n<p class="has-...')
+#2 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/class-collection.php(26): WPML\PB\Gutenberg\StringsInBlock\HTML->find(Object(WP_B in /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php on line 31
+[09-Oct-2019 16:01:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WPML\PB\Gutenberg\StringsInBlock\DOMHandler\mb_convert_encoding() in /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php:31
+Stack trace:
+#0 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php(18): WPML\PB\Gutenberg\StringsInBlock\DOMHandler\DOMHandle->getDom('\n<h2>What is Pa...')
+#1 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/class-html.php(24): WPML\PB\Gutenberg\StringsInBlock\DOMHandler\DOMHandle->getDomxpath('\n<h2>What is Pa...')
+#2 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/class-collection.php(26): WPML\PB\Gutenberg\StringsInBlock\HTML->find(Object(WP_B in /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php on line 31
+[09-Oct-2019 16:02:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WPML\PB\Gutenberg\StringsInBlock\DOMHandler\mb_convert_encoding() in /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php:31
+Stack trace:
+#0 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php(18): WPML\PB\Gutenberg\StringsInBlock\DOMHandler\DOMHandle->getDom('\n<h2>What is Pa...')
+#1 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/class-html.php(24): WPML\PB\Gutenberg\StringsInBlock\DOMHandler\DOMHandle->getDomxpath('\n<h2>What is Pa...')
+#2 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/class-collection.php(26): WPML\PB\Gutenberg\StringsInBlock\HTML->find(Object(WP_B in /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php on line 31
+[09-Oct-2019 16:02:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WPML\PB\Gutenberg\StringsInBlock\DOMHandler\mb_convert_encoding() in /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php:31
+Stack trace:
+#0 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php(18): WPML\PB\Gutenberg\StringsInBlock\DOMHandler\DOMHandle->getDom('\n<h2>What is Pa...')
+#1 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/class-html.php(24): WPML\PB\Gutenberg\StringsInBlock\DOMHandler\DOMHandle->getDomxpath('\n<h2>What is Pa...')
+#2 /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/class-collection.php(26): WPML\PB\Gutenberg\StringsInBlock\HTML->find(Object(WP_B in /home/parkinsonclinica/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/page-builders-gutenberg/src/strings-in-block/dom-handler/dom-handle.php on line 31
+[10-Oct-2019 00:23:07 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = '_wpml_transient__wpml_st_file_scan_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WPML_ST_Translations_File_Scan_Hooks->import_translations_files, WPML_ST_Translations_File_Queue->is_locked, WPML_Transient->get, get_option
+[10-Oct-2019 00:25:57 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = '_wpml_transient__wpml_st_file_scan_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WPML_ST_Translations_File_Scan_Hooks->import_translations_files, WPML_ST_Translations_File_Queue->is_locked, WPML_Transient->get, get_option
+[10-Oct-2019 01:00:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, array must have exactly two members in /home/parkinsonclinica/public_html/wp-includes/class-wp-hook.php on line 286
+[10-Oct-2019 11:33:26 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = '_wpml_transient__wpml_st_file_scan_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WPML_ST_Translations_File_Scan_Hooks->import_translations_files, WPML_ST_Translations_File_Queue->is_locked, WPML_Transient->get, get_option
+[10-Oct-2019 11:33:26 UTC] WordPress database error Commands out of sync; you can't run this command now for query INSERT IGNORE INTO wp_icl_strings (`language`, `context`, `gettext_context`, `domain_name_context_md5`, `name`, `value`, `status`) VALUES ('en', 'WPML', '', 'c9203e3110feb389a62b2f341a6c346a', 'Text for alternative languages for posts', 'This post is also available in: %s', 0) made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WPML_Autoregister_Save_Strings->shutdown, WPML_Autoregister_Save_Strings->persist
+[10-Oct-2019 11:34:15 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = '_wpml_transient__wpml_st_file_scan_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WPML_ST_Translations_File_Scan_Hooks->import_translations_files, WPML_ST_Translations_File_Queue->is_locked, WPML_Transient->get, get_option
+[10-Oct-2019 11:34:15 UTC] WordPress database error Commands out of sync; you can't run this command now for query INSERT IGNORE INTO wp_icl_strings (`language`, `context`, `gettext_context`, `domain_name_context_md5`, `name`, `value`, `status`) VALUES ('en', 'WPML', '', 'c9203e3110feb389a62b2f341a6c346a', 'Text for alternative languages for posts', 'This post is also available in: %s', 0) made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WPML_Autoregister_Save_Strings->shutdown, WPML_Autoregister_Save_Strings->persist
+[10-Oct-2019 11:34:16 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = '_wpml_transient__wpml_st_file_scan_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WPML_ST_Translations_File_Scan_Hooks->import_translations_files, WPML_ST_Translations_File_Queue->is_locked, WPML_Transient->get, get_option
+[15-Oct-2019 00:38:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, array must have exactly two members in /home/parkinsonclinica/public_html/wp-includes/class-wp-hook.php on line 286
+[17-Oct-2019 13:56:43 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = '_wpml_transient__wpml_st_file_scan_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WPML_ST_Translations_File_Scan_Hooks->import_translations_files, WPML_ST_Translations_File_Queue->is_locked, WPML_Transient->get, get_option
+[17-Oct-2019 13:56:43 UTC] WordPress database error Commands out of sync; you can't run this command now for query INSERT IGNORE INTO wp_icl_strings (`language`, `context`, `gettext_context`, `domain_name_context_md5`, `name`, `value`, `status`) VALUES ('en', 'WPML', '', 'c9203e3110feb389a62b2f341a6c346a', 'Text for alternative languages for posts', 'This post is also available in: %s', 0) made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WPML_Autoregister_Save_Strings->shutdown, WPML_Autoregister_Save_Strings->persist
+[17-Oct-2019 15:13:59 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = '_wpml_transient__wpml_st_file_scan_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WPML_ST_Translations_File_Scan_Hooks->import_translations_files, WPML_ST_Translations_File_Queue->is_locked, WPML_Transient->get, get_option
+[17-Oct-2019 15:13:59 UTC] WordPress database error Commands out of sync; you can't run this command now for query INSERT IGNORE INTO wp_icl_strings (`language`, `context`, `gettext_context`, `domain_name_context_md5`, `name`, `value`, `status`) VALUES ('en', 'WPML', '', 'c9203e3110feb389a62b2f341a6c346a', 'Text for alternative languages for posts', 'This post is also available in: %s', 0) made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WPML_Autoregister_Save_Strings->shutdown, WPML_Autoregister_Save_Strings->persist
+[17-Oct-2019 19:52:37 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = '_wpml_transient__wpml_st_file_scan_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WPML_ST_Translations_File_Scan_Hooks->import_translations_files, WPML_ST_Translations_File_Queue->is_locked, WPML_Transient->get, get_option
+[24-Oct-2019 08:07:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, array must have exactly two members in /home/parkinsonclinica/public_html/wp-includes/class-wp-hook.php on line 286
+[24-Oct-2019 09:22:53 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, array must have exactly two members in /home/parkinsonclinica/public_html/wp-includes/class-wp-hook.php on line 286
+[24-Oct-2019 22:17:44 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = '_wpml_transient__wpml_st_file_scan_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WPML_ST_Translations_File_Scan_Hooks->import_translations_files, WPML_ST_Translations_File_Queue->is_locked, WPML_Transient->get, get_option
+[25-Oct-2019 16:18:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, array must have exactly two members in /home/parkinsonclinica/public_html/wp-includes/class-wp-hook.php on line 286
+[28-Oct-2019 18:47:11 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php on line 4
+[28-Oct-2019 18:47:12 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php on line 4
+[28-Oct-2019 18:47:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __e() in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php:4
+Stack trace:
+#0 /home/parkinsonclinica/public_html/wp-includes/template.php(724): require()
+#1 /home/parkinsonclinica/public_html/wp-includes/template.php(671): load_template('/home/parkinson...', false)
+#2 /home/parkinsonclinica/public_html/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/app/Components/Template.php(122): get_template_part('templates/templ...', '')
+#4 [internal function]: Fp\Fabric\Components\Template->getTemplatePart('page/questions')
+#5 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/app/TemplateTags.php(51): call_user_func_array(Array, Array)
+#6 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/content-page.php(22): Fp\Fabric\TemplateTags->__call('get_template_pa...', Array)
+#7 /home/parkinsonclinica/public_ in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php on line 4
+[28-Oct-2019 18:47:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __e() in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php:4
+Stack trace:
+#0 /home/parkinsonclinica/public_html/wp-includes/template.php(724): require()
+#1 /home/parkinsonclinica/public_html/wp-includes/template.php(671): load_template('/home/parkinson...', false)
+#2 /home/parkinsonclinica/public_html/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/app/Components/Template.php(122): get_template_part('templates/templ...', '')
+#4 [internal function]: Fp\Fabric\Components\Template->getTemplatePart('page/questions')
+#5 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/app/TemplateTags.php(51): call_user_func_array(Array, Array)
+#6 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/content-page.php(22): Fp\Fabric\TemplateTags->__call('get_template_pa...', Array)
+#7 /home/parkinsonclinica/public_ in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php on line 4
+[28-Oct-2019 18:47:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __e() in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php:4
+Stack trace:
+#0 /home/parkinsonclinica/public_html/wp-includes/template.php(724): require()
+#1 /home/parkinsonclinica/public_html/wp-includes/template.php(671): load_template('/home/parkinson...', false)
+#2 /home/parkinsonclinica/public_html/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/app/Components/Template.php(122): get_template_part('templates/templ...', '')
+#4 [internal function]: Fp\Fabric\Components\Template->getTemplatePart('page/questions')
+#5 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/app/TemplateTags.php(51): call_user_func_array(Array, Array)
+#6 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/content-page.php(22): Fp\Fabric\TemplateTags->__call('get_template_pa...', Array)
+#7 /home/parkinsonclinica/public_ in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php on line 4
+[28-Oct-2019 18:47:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __e() in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php:4
+Stack trace:
+#0 /home/parkinsonclinica/public_html/wp-includes/template.php(724): require()
+#1 /home/parkinsonclinica/public_html/wp-includes/template.php(671): load_template('/home/parkinson...', false)
+#2 /home/parkinsonclinica/public_html/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/app/Components/Template.php(122): get_template_part('templates/templ...', '')
+#4 [internal function]: Fp\Fabric\Components\Template->getTemplatePart('page/questions')
+#5 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/app/TemplateTags.php(51): call_user_func_array(Array, Array)
+#6 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/content-page.php(22): Fp\Fabric\TemplateTags->__call('get_template_pa...', Array)
+#7 /home/parkinsonclinica/public_ in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php on line 4
+[28-Oct-2019 18:48:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __e() in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php:4
+Stack trace:
+#0 /home/parkinsonclinica/public_html/wp-includes/template.php(724): require()
+#1 /home/parkinsonclinica/public_html/wp-includes/template.php(671): load_template('/home/parkinson...', false)
+#2 /home/parkinsonclinica/public_html/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/app/Components/Template.php(122): get_template_part('templates/templ...', '')
+#4 [internal function]: Fp\Fabric\Components\Template->getTemplatePart('page/questions')
+#5 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/app/TemplateTags.php(51): call_user_func_array(Array, Array)
+#6 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/content-page.php(22): Fp\Fabric\TemplateTags->__call('get_template_pa...', Array)
+#7 /home/parkinsonclinica/public_ in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php on line 4
+[28-Oct-2019 18:48:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __e() in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php:4
+Stack trace:
+#0 /home/parkinsonclinica/public_html/wp-includes/template.php(724): require()
+#1 /home/parkinsonclinica/public_html/wp-includes/template.php(671): load_template('/home/parkinson...', false)
+#2 /home/parkinsonclinica/public_html/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/app/Components/Template.php(122): get_template_part('templates/templ...', '')
+#4 [internal function]: Fp\Fabric\Components\Template->getTemplatePart('page/questions')
+#5 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/app/TemplateTags.php(51): call_user_func_array(Array, Array)
+#6 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/content-page.php(22): Fp\Fabric\TemplateTags->__call('get_template_pa...', Array)
+#7 /home/parkinsonclinica/public_ in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php on line 4
+[28-Oct-2019 18:48:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __e() in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php:4
+Stack trace:
+#0 /home/parkinsonclinica/public_html/wp-includes/template.php(724): require()
+#1 /home/parkinsonclinica/public_html/wp-includes/template.php(671): load_template('/home/parkinson...', false)
+#2 /home/parkinsonclinica/public_html/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/app/Components/Template.php(122): get_template_part('templates/templ...', '')
+#4 [internal function]: Fp\Fabric\Components\Template->getTemplatePart('page/questions')
+#5 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/app/TemplateTags.php(51): call_user_func_array(Array, Array)
+#6 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/content-page.php(22): Fp\Fabric\TemplateTags->__call('get_template_pa...', Array)
+#7 /home/parkinsonclinica/public_ in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php on line 4
+[28-Oct-2019 18:48:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __e() in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php:4
+Stack trace:
+#0 /home/parkinsonclinica/public_html/wp-includes/template.php(724): require()
+#1 /home/parkinsonclinica/public_html/wp-includes/template.php(671): load_template('/home/parkinson...', false)
+#2 /home/parkinsonclinica/public_html/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/app/Components/Template.php(122): get_template_part('templates/templ...', '')
+#4 [internal function]: Fp\Fabric\Components\Template->getTemplatePart('page/questions')
+#5 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/app/TemplateTags.php(51): call_user_func_array(Array, Array)
+#6 /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/content-page.php(22): Fp\Fabric\TemplateTags->__call('get_template_pa...', Array)
+#7 /home/parkinsonclinica/public_ in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/template-parts/page/questions.php on line 4
+[28-Oct-2019 19:57:45 UTC] PHP Parse error:  syntax error, unexpected '?', expecting end of file in /home/parkinsonclinica/public_html/wp-content/themes/cgpd/templates/footer.php on line 104
+[29-Oct-2019 01:22:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, array must have exactly two members in /home/parkinsonclinica/public_html/wp-includes/class-wp-hook.php on line 286
+[29-Oct-2019 01:22:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, array must have exactly two members in /home/parkinsonclinica/public_html/wp-includes/class-wp-hook.php on line 286
+[29-Oct-2019 15:01:57 UTC] WordPress database error Not unique table/alias: 'wp_postmeta' for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  LEFT JOIN wp_postmeta ON (wp_posts.ID = wp_postmeta.post_id AND wp_postmeta.meta_key = '_frm_temporary' )  LEFT JOIN wp_postmeta AS mt1 ON (wp_posts.ID = mt1.post_id AND mt1.meta_key = '_frm_file' ) JOIN wp_icl_translations wpml_translations
+							ON wp_posts.ID = wpml_translations.element_id
+								AND wpml_translations.element_type = CONCAT('post_', wp_posts.post_type)  LEFT JOIN wp_postmeta ON wp_posts.ID = wp_postmeta.post_id  LEFT JOIN wp_postmeta AS sq1 ON ( wp_posts.ID = sq1.post_id AND sq1.meta_key = '_wp_attached_file' ) WHERE 1=1  AND (((wp_posts.post_title LIKE '%imagine%') OR (wp_postmeta.meta_value LIKE '%imagine%') OR (wp_posts.post_excerpt LIKE '%imagine%') OR (wp_posts.post_content LIKE '%imagine%') OR ( sq1.meta_value LIKE '%imagine%' )))  AND ( 
+  ( 
+    wp_postmeta.post_id IS NULL 
+    AND 
+    mt1.post_id IS NULL
+  )
+) AND wp_posts.post_type = 'attachment' AND ((wp_posts.post_status = 'inherit' OR wp_posts.post_status = 'private')) AND ( ( ( wpml_translations.language_code = 'en' OR 0 ) AND wp_posts.post_type  IN ('post','page','attachment','wp_block' )  ) OR wp_posts.post_type  NOT  IN ('post','page','attachment','wp_block' )  ) GROUP BY wp_posts.ID ORDER BY wp_posts.post_title LIKE '%imagine%' DESC, wp_posts.post_date DESC LIMIT 0, 40 made by WP_Media_List_Table->prepare_items, wp_edit_attachments_query, wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts
+[29-Oct-2019 15:01:57 UTC] WordPress database error Not unique table/alias: 'wp_postmeta' for query SELECT   wp_posts.ID FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id ) JOIN wp_icl_translations wpml_translations
+							ON wp_posts.ID = wpml_translations.element_id
+								AND wpml_translations.element_type = CONCAT('post_', wp_posts.post_type)  LEFT JOIN wp_postmeta ON wp_posts.ID = wp_postmeta.post_id  WHERE 1=1  AND ( 
+  wp_posts.post_date_gmt < '2019-10-29 12:01:57'
+) AND wp_posts.post_parent = 0  AND ( 
+  wp_postmeta.meta_key = '_frm_temporary'
+) AND wp_posts.post_type = 'attachment' AND ((wp_posts.post_status = 'inherit')) AND ( ( ( wpml_translations.language_code = 'en' OR 0 ) AND wp_posts.post_type  IN ('post','page','attachment','wp_block' )  ) OR wp_posts.post_type  NOT  IN ('post','page','attachment','wp_block' )  ) GROUP BY wp_posts.ID ORDER BY wp_posts.post_date DESC LIMIT 0, 50 made by include('wp-admin/admin-footer.php'), do_action('admin_footer'), WP_Hook->do_action, WP_Hook->apply_filters, FrmProFieldsController::delete_temp_files, get_posts, WP_Query->query, WP_Query->get_posts
+[29-Oct-2019 15:15:44 UTC] WordPress database error Not unique table/alias: 'wp_postmeta' for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  LEFT JOIN wp_postmeta ON (wp_posts.ID = wp_postmeta.post_id AND wp_postmeta.meta_key = '_frm_temporary' )  LEFT JOIN wp_postmeta AS mt1 ON (wp_posts.ID = mt1.post_id AND mt1.meta_key = '_frm_file' ) JOIN wp_icl_translations wpml_translations
+							ON wp_posts.ID = wpml_translations.element_id
+								AND wpml_translations.element_type = CONCAT('post_', wp_posts.post_type)  LEFT JOIN wp_postmeta ON wp_posts.ID = wp_postmeta.post_id  LEFT JOIN wp_postmeta AS sq1 ON ( wp_posts.ID = sq1.post_id AND sq1.meta_key = '_wp_attached_file' ) WHERE 1=1  AND (((wp_posts.post_title LIKE '%imagine%') OR (wp_postmeta.meta_value LIKE '%imagine%') OR (wp_posts.post_excerpt LIKE '%imagine%') OR (wp_posts.post_content LIKE '%imagine%') OR ( sq1.meta_value LIKE '%imagine%' )))  AND ( 
+  ( 
+    wp_postmeta.post_id IS NULL 
+    AND 
+    mt1.post_id IS NULL
+  )
+) AND wp_posts.post_type = 'attachment' AND ((wp_posts.post_status = 'inherit' OR wp_posts.post_status = 'private')) AND ( ( ( wpml_translations.language_code = 'en' OR 0 ) AND wp_posts.post_type  IN ('post','page','attachment','wp_block' )  ) OR wp_posts.post_type  NOT  IN ('post','page','attachment','wp_block' )  ) GROUP BY wp_posts.ID ORDER BY wp_posts.post_title LIKE '%imagine%' DESC, wp_posts.post_date DESC LIMIT 0, 40 made by WP_Media_List_Table->prepare_items, wp_edit_attachments_query, wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts
+[29-Oct-2019 15:15:44 UTC] WordPress database error Not unique table/alias: 'wp_postmeta' for query SELECT   wp_posts.ID FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id ) JOIN wp_icl_translations wpml_translations
+							ON wp_posts.ID = wpml_translations.element_id
+								AND wpml_translations.element_type = CONCAT('post_', wp_posts.post_type)  LEFT JOIN wp_postmeta ON wp_posts.ID = wp_postmeta.post_id  WHERE 1=1  AND ( 
+  wp_posts.post_date_gmt < '2019-10-29 12:15:44'
+) AND wp_posts.post_parent = 0  AND ( 
+  wp_postmeta.meta_key = '_frm_temporary'
+) AND wp_posts.post_type = 'attachment' AND ((wp_posts.post_status = 'inherit')) AND ( ( ( wpml_translations.language_code = 'en' OR 0 ) AND wp_posts.post_type  IN ('post','page','attachment','wp_block' )  ) OR wp_posts.post_type  NOT  IN ('post','page','attachment','wp_block' )  ) GROUP BY wp_posts.ID ORDER BY wp_posts.post_date DESC LIMIT 0, 50 made by include('wp-admin/admin-footer.php'), do_action('admin_footer'), WP_Hook->do_action, WP_Hook->apply_filters, FrmProFieldsController::delete_temp_files, get_posts, WP_Query->query, WP_Query->get_posts
+[29-Oct-2019 15:15:57 UTC] WordPress database error Not unique table/alias: 'wp_postmeta' for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  LEFT JOIN wp_postmeta ON (wp_posts.ID = wp_postmeta.post_id AND wp_postmeta.meta_key = '_frm_temporary' )  LEFT JOIN wp_postmeta AS mt1 ON (wp_posts.ID = mt1.post_id AND mt1.meta_key = '_frm_file' ) JOIN wp_icl_translations wpml_translations
+							ON wp_posts.ID = wpml_translations.element_id
+								AND wpml_translations.element_type = CONCAT('post_', wp_posts.post_type)  LEFT JOIN wp_postmeta ON wp_posts.ID = wp_postmeta.post_id  LEFT JOIN wp_postmeta AS sq1 ON ( wp_posts.ID = sq1.post_id AND sq1.meta_key = '_wp_attached_file' ) WHERE 1=1  AND ( 
+  ( 
+    wp_postmeta.post_id IS NULL 
+    AND 
+    mt1.post_id IS NULL
+  )
+) AND wp_posts.post_type = 'attachment' AND ((wp_posts.post_status = 'inherit' OR wp_posts.post_status = 'private')) AND ( ( ( wpml_translations.language_code = 'en' OR 0 ) AND wp_posts.post_type  IN ('post','page','attachment','wp_block' )  ) OR wp_posts.post_type  NOT  IN ('post','page','attachment','wp_block' )  ) GROUP BY wp_posts.ID ORDER BY wp_posts.post_date DESC LIMIT 0, 40 made by WP_Media_List_Table->prepare_items, wp_edit_attachments_query, wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts
+[29-Oct-2019 15:15:57 UTC] WordPress database error Not unique table/alias: 'wp_postmeta' for query SELECT   wp_posts.ID FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id ) JOIN wp_icl_translations wpml_translations
+							ON wp_posts.ID = wpml_translations.element_id
+								AND wpml_translations.element_type = CONCAT('post_', wp_posts.post_type)  LEFT JOIN wp_postmeta ON wp_posts.ID = wp_postmeta.post_id  WHERE 1=1  AND ( 
+  wp_posts.post_date_gmt < '2019-10-29 12:15:57'
+) AND wp_posts.post_parent = 0  AND ( 
+  wp_postmeta.meta_key = '_frm_temporary'
+) AND wp_posts.post_type = 'attachment' AND ((wp_posts.post_status = 'inherit')) AND ( ( ( wpml_translations.language_code = 'en' OR 0 ) AND wp_posts.post_type  IN ('post','page','attachment','wp_block' )  ) OR wp_posts.post_type  NOT  IN ('post','page','attachment','wp_block' )  ) GROUP BY wp_posts.ID ORDER BY wp_posts.post_date DESC LIMIT 0, 50 made by include('wp-admin/admin-footer.php'), do_action('admin_footer'), WP_Hook->do_action, WP_Hook->apply_filters, FrmProFieldsController::delete_temp_files, get_posts, WP_Query->query, WP_Query->get_posts
+[29-Oct-2019 19:30:05 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, array must have exactly two members in /home/parkinsonclinica/public_html/wp-includes/class-wp-hook.php on line 286
+[30-Oct-2019 13:44:33 UTC] PHP Notice:  Undefined offset: 1 in /home/parkinsonclinica/public_html/wp-includes/plugin.php on line 935
+[30-Oct-2019 13:44:55 UTC] PHP Notice:  Undefined offset: 1 in /home/parkinsonclinica/public_html/wp-includes/plugin.php on line 935
+[30-Oct-2019 13:44:56 UTC] PHP Notice:  Undefined offset: 1 in /home/parkinsonclinica/public_html/wp-includes/plugin.php on line 935
+[30-Oct-2019 13:44:57 UTC] PHP Notice:  Undefined offset: 1 in /home/parkinsonclinica/public_html/wp-includes/plugin.php on line 935
+[30-Oct-2019 13:45:33 UTC] PHP Notice:  Undefined offset: 1 in /home/parkinsonclinica/public_html/wp-includes/plugin.php on line 935
+[30-Oct-2019 13:45:55 UTC] PHP Notice:  Undefined offset: 1 in /home/parkinsonclinica/public_html/wp-includes/plugin.php on line 935
+[30-Oct-2019 13:46:35 UTC] PHP Notice:  Undefined offset: 1 in /home/parkinsonclinica/public_html/wp-includes/plugin.php on line 935
+[30-Oct-2019 13:46:35 UTC] PHP Notice:  Undefined offset: 1 in /home/parkinsonclinica/public_html/wp-includes/plugin.php on line 935

@@ -1,0 +1,79 @@
+.experts {
+	background-color: $primary;
+	position: relative;
+
+	&__mask {
+		@include media-breakpoint-up(lg) {
+			background-size: cover;
+			height: 100%;
+			position: absolute;
+			background-color: $primary;
+			left: 0;
+			width: 50%;
+			z-index: 2;
+		}
+	}
+
+	&__image {
+		background-image: url(./assets/img/front-page/expert.jpg);
+		background-size: cover;
+		height: 0;
+		padding-bottom: 56.25%;
+		right: 0;
+		z-index: 1;
+		@include media-breakpoint-up(lg) {
+			height: 100%;
+			padding-bottom: 0;
+			position: absolute;
+			width: 50%;
+		}
+	}
+
+	&__content {
+		color: $white;
+		padding: 5rem 0;
+		position: relative;
+		z-index: 3;
+
+		p {
+			@include font-size($font-size-lg);
+		}
+
+		@include media-breakpoint-down(md) {
+			&:after {
+				background-image: linear-gradient(
+					to top,
+					rgba($primary, 1),
+					rgba($primary, 0)
+				);
+				bottom: 100%;
+				content: '';
+				left: 0;
+				height: 60px;
+				position: absolute;
+				width: 100%;
+			}
+		}
+
+		@include media-breakpoint-up(md) {
+			.row > div {
+				position: relative;
+				&:after {
+					background-image: linear-gradient(
+						to right,
+						rgba($primary, 1),
+						rgba($primary, 0)
+					);
+					bottom: auto;
+					content: '';
+					display: block;
+					height: calc(100% + 10rem);
+					left: 100%;
+					position: absolute;
+					top: -5rem;
+					width: 40%;
+				}
+			}
+		}
+	}
+}

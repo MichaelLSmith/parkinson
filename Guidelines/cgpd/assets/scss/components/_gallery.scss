@@ -1,0 +1,42 @@
+$lg-path-fonts: 'fonts/lg';
+$lg-path-images: 'img/lg';
+
+@import "~lightgallery/src/sass/lightgallery";
+
+.fp-gallery {
+    .btn-gallery {
+        @include transition(all .15s ease-in-out);
+        @include button-variant($dark, $dark);
+
+        background: center no-repeat;
+        background-size: cover;
+        border-radius: $border-radius;
+        display: block;
+        margin-bottom: $spacer;
+        outline: none;
+        overflow: hidden;
+        padding: 0 0 100%;
+        position: relative;
+        width: 100%;
+
+        &:before {
+            background: rgba(0,0,0,0.4) url(img/lg/enlarge.png) center no-repeat;
+            background-size: 32px;
+            bottom: 0;
+            content: '';
+            left: 0;
+            opacity: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            @include transition(opacity .15s ease-in-out);
+        }
+
+        &:hover,
+        &:focus {
+            &:before {
+                opacity: 1;
+            }
+        }
+    }
+}

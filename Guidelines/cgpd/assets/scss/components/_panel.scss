@@ -1,0 +1,18 @@
+@each $color, $value in $theme-colors {
+	.panel-#{$color} {
+		background-color: $value;
+    color: color-yiq($value) !important;
+    @at-root .edit-post-visual-editor #{&} {
+      p, h1, h2, h3, h4, h5, h6, li {
+        color: color-yiq($value);
+      }
+    }
+	}
+
+	a.panel-#{$color}:hover,
+	a.panel-#{$color}:focus {
+		background-color: darken($value, 7.5%);
+		color: color-yiq(darken($value, 7.5%)) !important;
+		text-decoration: none;
+	}
+}

@@ -1,0 +1,52 @@
+/* newsletter archives */
+.epark-img img {
+  margin-bottom: 0px;
+}
+.epark-img figcaption {
+  text-align: center;
+}
+.archive-body img {
+  margin-bottom: 0px;
+}
+.archive-body figcaption {
+  text-align: center;
+  margin-bottom: 1em;
+}
+.archive-body figure {
+  margin: .5em;
+}
+.blue-background-header {
+  background-color: #075798;
+  color: white;
+  text-align: center;
+  line-height: 133px;
+  vertical-align: middle;
+  font-size: 45px;
+  max-width: 550px;
+	margin-bottom: .45em;
+}
+.news-btn a {
+color: #e0e0e0;
+  background-color: #d50032;
+  border-color: #cccccc;
+}
+.news-btn a:hover {
+  color: #e0e0e0;
+  background-color: #aa0028;
+  border-color: #adadad;
+}
+.news-btn a:active {
+  color: #e0e0e0;
+  background-color: #aa0028;
+  border-color: #adadad;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+.news-container {
+  background-color: #e0e0e0;
+  padding: 1em;
+  max-width: 550px;
+  margin-bottom: 28.8px;
+}

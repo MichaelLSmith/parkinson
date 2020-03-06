@@ -1,0 +1,57 @@
+/* category-archives.scss */
+
+/* research archive */
+.research-container img {
+  max-height: 250px;
+  width: auto;
+  border-radius: 2%;
+  border: lightgray solid 1px;
+}
+.research-container hr, .hr-visible {
+  border-top: solid 1px black;
+}
+.researcher-profile {
+  background-color: hsl(0, 0%, 91%);
+  padding: .75em;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+	.profile-image {
+		justify-content: flex-start;
+	}
+}
+/* newsletter archives */
+.epark-img img {
+  margin-bottom: 0px;
+}
+.epark-img figcaption {
+  text-align: center;
+}
+.archive-body img {
+  margin-bottom: 0px;
+}
+.archive-body figcaption {
+  text-align: center;
+  margin-bottom: 1em;
+}
+.archive-body figure {
+  margin: .5em;
+}
+.blue-background-header {
+  background-color: #075798;
+  color: white;
+  text-align: center;
+  line-height: 133px;
+  vertical-align: middle;
+  font-size: 45px;
+  max-width: 550px;
+	margin-bottom: .45em;
+}
+.news-container {
+  /*background-color: #e0e0e0;*/
+  padding: 1em;
+  max-width: 550px;
+  margin-bottom: 28.8px;
+}

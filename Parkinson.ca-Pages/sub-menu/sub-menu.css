@@ -1,0 +1,11 @@
+.flex-menu {
+  color: #d50032;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 85%;
+}
+
+.submenu > a {
+  color: #d50032;
+}

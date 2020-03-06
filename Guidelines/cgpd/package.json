@@ -1,0 +1,51 @@
+{
+  "name": "fp-theme",
+  "version": "2.0.0",
+  "description": "Basic theme starter for Floating-Point built websites.",
+  "author": "Floating-Point",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --progress --mode development --config ./assets/build/webpack.config.js",
+    "build": "webpack --progress --mode production --config ./assets/build/webpack.config.js",
+    "build:report": "webpack --progress --mode production --config ./assets/build/webpack.config.js --json > ./dist/stats.json",
+    "report": "webpack-bundle-analyzer ./dist/stats.json"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/pro-light-svg-icons": "^5.9.0",
+    "@fortawesome/pro-regular-svg-icons": "^5.9.0",
+    "@fortawesome/pro-solid-svg-icons": "^5.9.0",
+    "bootstrap": "^4.3.1",
+    "lightgallery": "^1.6.12",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@wordpress/eslint-plugin": "^2.2.0",
+    "autoprefixer": "^9.6.0",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.0.0",
+    "eslint": "^5.16.0",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-wordpress": "^0.1.0",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^4.0.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "terser-webpack-plugin": "^1.2.3",
+    "webpack": "^4.29.6",
+    "webpack-bundle-analyzer": "^3.4.1",
+    "webpack-cli": "^3.2.3",
+    "webpack-notifier": "^1.7.0"
+  }
+}

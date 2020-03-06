@@ -1,0 +1,181 @@
+/* utilities.scss */
+
+.float-img-right {
+	float: right;
+	margin: 0.35em 0 0.35em 1.5em;
+}
+.float-img-left {
+	float: left;
+	margin: 0.35em 1.5em 0.35em 0em;
+}
+table, table th, table td {
+	border: solid black 1px;
+}
+.reg-weight {
+	font-weight: 400;
+}
+.horizontal-list li {
+	margin: 0 3em 0 0;
+}
+.font-size-reset {
+	font-size: 1rem;
+}
+
+.caption-reset {
+	font-size: 1.3em;
+	text-transform: initial
+}
+.park-table-row > td:first-child {
+	width: 25%;
+	text-align: center;
+}
+.event-detail-indent p {
+	margin-left: 2.5em;
+}
+
+.narrow-line-height {
+  line-height: 1.3;
+}
+.poster-padding-sides {
+  padding: 0 1em;
+}
+.padding-half-em {
+	padding: .5em;
+}
+.park-text-center {
+  text-align: center;
+}
+.park-text-right {
+	text-align: right;
+}
+.park-text-left {
+	text-align: left;
+}
+/* to make height of headings same after line break and align baseline
+wrap heading in div with container class
+*/
+.h6-container {
+	display: table;
+	min-height: 60px;
+}
+.h6-container > h6 {
+	display: table-cell;
+}
+.h6-container-align-bottom {
+	vertical-align: bottom;
+}
+/* to go directly on anchor tags */
+.a-no-underline {
+	text-decoration: none;
+}
+/* if it's inherit, it takes on black or red, for other uses, not sure how to set it. Used on knowledge network */
+.a-no-underline:hover {
+	color: var(--color);
+}
+.a-no-underline > a {
+	text-decoration: none;
+	color: inherit;
+}
+.a-no-underline > a:hover {
+	color: inherit;
+}
+.no-hover:hover {
+	color: white;
+}
+.inherit-color {
+	color: inherit;
+}
+.park-callout {
+	/* an img with text area below - originally used on SuperWalk callout on homepage */
+	background-color: white;
+	text-align: center;
+	margin-bottom: 1em;
+}
+.park-callout div {
+	display: block;
+}
+.park-callout-textbox {
+	padding: 1em 0;
+}
+.park-callout-button {
+	margin: 1em 0;
+}
+.park-text-callout, .park-text-callout-right, .park-text-callout-left, .park-wide-text-box {
+	border: #54585a solid 1.5px; 
+	padding: 0.5em;
+	text-align: center;
+}
+.park-text-callout, .park-text-callout-right, .park-text-callout-left {
+	width: 40%;
+}
+.park-text-callout-right {
+	// used for a simple text-based callout box with grey border
+	float: right;
+	width:30%;
+}
+.park-text-callout-left {
+	float:left;
+	width:30%;
+}
+.park-wide-text-box {
+	max-width: 450px;
+}
+//targets all browsers except IE
+@supports (display:grid) {
+	.park-wide-text-box {
+		width: 75%;
+	}
+}
+/* definition list */
+/* hanging indent */
+dl dd {
+  font-size: .85em;
+}
+dl {
+  margin: 0 0 .5em 0;
+}
+dd.regular-font {
+  font-size: inherit;
+}
+dd.close-margin {
+  margin-top: .5em;
+}
+dd {
+	/* this overrides theme's 1.5em in case the font size of one of the dd's is different as in .dd.regular-font */
+	margin-left: 27.54px;
+}
+/* one-line-justify */
+.full-justify {
+  text-align: justify;
+}
+.full-justify:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+.social-icon-space i {
+  margin: 0 8px;
+}
+.box-shadow {
+	box-shadow: 8px 2px 9px $shadow-grey;
+}
+@media (max-width: 768px) {
+	.float-img-right, .float-img-left {
+		float: none;
+		margin: 0;
+	}
+	.park-text-callout {
+		width: 100%;
+	}
+	.park-text-callout-right, .park-text-callout-left {
+		float: none;
+		width: 65%;
+	}
+	.left-to-right-align {
+		margin-left: auto;
+	}
+	.logo-mobile {
+		max-width: 170px;
+	}
+	
+}

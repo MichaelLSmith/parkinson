@@ -1,0 +1,21 @@
+.card {
+	background-color: darken($info, 10%);
+	box-shadow: $box-shadow;
+	border: none;
+	color: $white;
+}
+
+a.card {
+	&:hover {
+		box-shadow: $box-shadow-lg;
+		color: $white;
+		background-color: darken($info, 15%);
+		text-decoration: none;
+	}
+
+	.card-body {
+		@include font-size($font-size-md);
+		font-weight: 500;
+		text-align: center;
+	}
+}

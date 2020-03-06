@@ -1,0 +1,191 @@
+#tinymce {
+	margin: $spacer !important;
+}
+body {
+	overflow-x: hidden;
+} // Accounts for scrollbars present or not
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+	float: left;
+	margin-bottom: $spacer;
+	margin-right: $spacer;
+}
+
+.alignright {
+	float: right;
+	margin-bottom: $spacer;
+	margin-left: $spacer;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignwide {
+	margin-left: -($grid-gutter-width / 2);
+	margin-right: -($grid-gutter-width / 2);
+	width: auto;
+
+	@each $breakpoint, $value in $container-max-widths {
+		@include media-breakpoint-up($breakpoint) {
+			margin-left: calc(
+				-25vw + #{($value / 2 - $grid-gutter-width / 2) / 2}
+			);
+			margin-right: calc(
+				-25vw + #{($value / 2 - $grid-gutter-width / 2) / 2}
+			);
+		}
+	}
+
+	img {
+		display: block;
+		width: 100%;
+	}
+}
+
+.alignfull {
+	margin-left: -($grid-gutter-width / 2);
+	margin-right: -($grid-gutter-width / 2);
+	width: auto;
+
+	@each $breakpoint, $value in $container-max-widths {
+		@include media-breakpoint-up($breakpoint) {
+			margin-left: calc(-50vw + #{$value / 2 - $grid-gutter-width / 2});
+			margin-right: calc(-50vw + #{$value / 2 - $grid-gutter-width / 2});
+		}
+	}
+
+	img {
+		display: block;
+		width: 100%;
+	}
+}
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption {
+	margin-bottom: $spacer;
+	max-width: 100%;
+}
+
+.wp-caption img[class*='wp-image-'] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: $spacer 0;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+/*--------------------------------------------------------------
+## Accordions
+--------------------------------------------------------------*/
+.accordion {
+	margin-bottom: $spacer;
+
+	button {
+		text-align: left;
+		white-space: normal;
+
+		&.collapsed .fa-plus-circle {
+			display: inline-block;
+		}
+		&.collapsed .fa-minus-circle {
+			display: none;
+		}
+
+		& .fa-plus-circle {
+			display: none;
+		}
+		& .fa-minus-circle {
+			display: inline-block;
+		}
+	}
+
+	.accordion-body {
+		background-color: $light;
+		border-radius: $border-radius;
+		margin: $spacer/2 0 0;
+		padding: $btn-padding-y $btn-padding-x;
+
+		> :first-child {
+			margin-top: 0;
+		}
+		> :last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+## Wells
+--------------------------------------------------------------*/
+
+.callout {
+	background-color: $light;
+	border-radius: $border-radius;
+	margin-bottom: $spacer;
+	padding: $alert-padding-y $alert-padding-x;
+
+	> :first-child {
+		margin-top: 0;
+	}
+	> :last-child {
+		margin-bottom: 0;
+	}
+
+	@media (min-width: map-get($grid-breakpoints, lg)) {
+		&#{&}--left,
+		&#{&}--right {
+			max-width: 40%;
+		}
+
+		&#{&}--left {
+			float: left;
+
+			margin-right: $spacer;
+		}
+
+		&#{&}--right {
+			float: right;
+			margin-left: $spacer;
+		}
+	}
+}
+
+.has-medium-font-size {
+	@include font-size($font-size-md);
+}
+
+.has-large-font-size {
+	@include font-size($font-size-lg);
+}
+
+.wp-block-image img {
+	height: auto;
+}
+
+.wp-block-pullquote {
+	color: $danger;
+}

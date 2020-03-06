@@ -1,0 +1,83 @@
+/* https://codepen.io/FelipeMarcos/pen/tfhEg */
+
+/* Alternative: https://codepen.io/benngagne/pen/bCkyr */
+
+
+/* default button style */
+.btn {
+	position: relative;
+	border: 0;
+	padding: 15px 25px;
+	display: inline-block;
+	text-align: center;
+	color: white;
+}
+.btn:active {
+	top: 4px;	
+}
+
+.btn-container, .container {
+	background-color: white;
+	border-radius: 4px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.btn, .btn-two {
+	margin: 9px;
+}
+.btn.red, .btn-two.red       {background-color: #fa5a5a;}
+
+/* rounded */
+.btn.red {box-shadow:0px 4px 0px #E04342;}
+.btn.red:active {box-shadow: 0 0 #ff4c4b; background-color: #ff4c4b;}
+
+.rounded {
+  border-radius: 10px;
+}
+
+
+a[class*="btn"] {text-decoration: none;}
+input[class*="btn"], 
+button[class*="btn"] {border: 0;}
+
+
+/* 3D Button */
+.btn-3d {
+	position: relative;
+	display: inline-block;
+	font-size: 22px;
+	padding: 20px 60px;
+	color: white;
+	margin: 20px 10px 10px;
+	border-radius: 6px;
+	text-align: center;
+	transition: top .01s linear;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}
+.btn-3d.red:hover    {background-color: #e74c3c;}
+.btn-3d.blue:hover   {background-color: #699DD1;}
+.btn-3d.green:hover  {background-color: #80C49D;}
+.btn-3d.purple:hover {background-color: #D19ECB;}
+.btn-3d.yellow:hover {background-color: #F0D264;}
+.btn-3d.cyan:hover   {background-color: #82D1E3;}
+
+.btn-3d:active {
+	top: 9px;
+}
+
+
+/* 3D button colors */
+.btn-3d.red {
+	background-color: #e74c3c;
+	box-shadow: 0 0 0 1px #c63702 inset,
+        0 0 0 2px rgba(255,255,255,0.15) inset,
+        0 8px 0 0 #C24032,
+        0 8px 0 1px rgba(0,0,0,0.4),
+				0 8px 8px 1px rgba(0,0,0,0.5);
+}
+.btn-3d.red:active {
+	box-shadow: 0 0 0 1px #c63702 inset,
+				0 0 0 2px rgba(255,255,255,0.15) inset,
+				0 0 0 1px rgba(0,0,0,0.4);
+}

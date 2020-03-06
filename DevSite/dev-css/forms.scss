@@ -1,0 +1,19 @@
+input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	display: inline-block;
+	height: 2.65em;
+	margin-bottom: 9px;
+	border: 2px solid #ddd;
+	padding: 0 .65em;
+	font-size: 15px;
+	line-height: normal;
+	color: #555;
+	background-color: #fff;
+}
+// targets the footer form Connect With Us - must match id that formidible forms outputs
+#frm_form_73_container {
+	font-size: 16px;
+}
+
+.footer-form input {
+
+}

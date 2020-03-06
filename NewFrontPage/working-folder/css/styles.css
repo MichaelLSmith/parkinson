@@ -1,0 +1,81 @@
+img {
+	width: 100%;
+}
+
+.img-bck {
+	display: inline-block;
+	position: relative;
+}	
+
+.img-bck img {
+	opacity: 75%;
+	width: 100%;
+}
+
+.img-callout-desktop, .img-callout-mobile {
+	position: absolute;
+	top: 20%;
+	right: 10%;
+	background-color:
+	rgba(204, 204, 204, 0.5);
+	max-width: 35%;
+	width: 319px;
+	-webkit-transform: translate(0%,0%) scale(1.2);
+	        transform: translate(0%,0%) scale(1.2);
+}
+.img-callout-desktop {
+	display: block;
+}
+.img-callout-mobile {
+	display: none;
+}
+.img-callout-btn {
+	position:absolute;
+	top:75%;
+	left:50%;
+}
+.img-callout-btn-2 {
+	position:absolute;
+	top:65%;
+	left:50%;
+}
+/* For mobile devices */
+/* @media only screen and (max-width: 767px) {
+	.bkg-img-container { */
+	 /* The file size of this background image is 93% smaller
+		* to improve page load speed on mobile internet connections */
+	 /* background-image: url(images/background-photo-mobile-devices.jpg);
+ }
+} */
+
+/* logo and text side by side */
+
+
+.inline-box-left, .inline-box-right {
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+}
+.inline-box-right {
+	margin-left: 5px;
+}
+.inline-box-left {
+	margin-right: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+	/* background img */
+	.img-callout-desktop {
+		display: none;
+	}
+	.img-callout-mobile {
+		display: block;
+	}
+
+
+
+/* logo */
+	.inline-box-left, .inline-box-right {
+		display: block;
+	}
+}

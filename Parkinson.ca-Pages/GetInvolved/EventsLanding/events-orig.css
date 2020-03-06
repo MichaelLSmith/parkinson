@@ -1,0 +1,107 @@
+/* pre-grid/bootstrap css */
+
+
+
+.event-photo-size {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	background-color: lightgrey;
+  min-height: 200px;
+}
+.events-landing {
+	border-bottom: solid black 2px;
+}
+.events-landing h4, .events-landing a {
+	color: #d50032;
+}
+.event-column-item {
+	background-color: #54585a;
+	margin: 2px;
+}
+
+
+/* grid css */
+/* grid item classes */
+.event-photo-size {
+  min-height: 254px;
+}
+@supports (display:flex) {
+  .event-photo-size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 273px;
+  }
+}
+.event-name-heading {
+  color: #d50032;
+}
+.event-search-form {
+  border: solid 1px;
+}
+
+.event-search-icon {
+	max-height: 170px;
+  margin: auto;
+  display: block;
+}
+
+
+/* Moved the grid css to a generic grid.css page that I can use for any grid layout. Page-specific grid__item css details like the grey border on hover should be separate out into their own classes. For now the event-landing page may or may not work due to this change. */
+
+
+/* grid settings */
+.grid {
+  display: inline-block;
+}
+.grid__item {
+	box-sizing: border-box;
+  width: 14em;
+  display: inline-block;
+  vertical-align: top;
+  margin: 1em 0.5em;
+  text-align: left;
+  border: solid 1px lightgray;
+}
+.grid__item > a {
+  text-decoration: none;
+  color: inherit;
+}
+.grid__item > a:hover {
+	color: inherit;
+}
+@supports (display:flex) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1em 0 1em -0.5em;
+    justify-content: space-around;
+  }
+
+  .grid__item {
+    padding: 1em 0 0 0.5em;
+    flex: 1 0 20em;
+    max-width: 20em;
+    width: auto;
+    margin: initial;
+  }
+  .grid__item:hover {
+  	border: solid 3px lightgray;
+  	margin: -2px;
+  }
+}
+
+@supports (display:grid) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    grid-gap: 1em;
+    margin: initial;
+  }
+
+  .grid__item {
+    padding: initial;
+    max-width: none;
+  }
+}

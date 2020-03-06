@@ -1,0 +1,24 @@
+/*Mind Over Matter*/
+.mind-table-row > td:first-child {
+  width: 15%;
+}
+.verticle-align-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mind-menu {
+  margin-bottom: 1em;
+}
+@media (max-width: 550px) {
+	.mind-menu {
+    /* flex-direction: column;
+    align-items: center; */
+	}
+  .mind-menu a {
+    /* display: inline-table; */
+    width: 9em;
+    margin: 0.5em 0;
+    font-size: 75%;
+  }
+}

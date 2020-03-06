@@ -1,0 +1,31 @@
+<!-- <form action='QueryString.cgi' method='GET'>
+	<div>
+	 First Name:
+	 <input type='text' name='fname'/>
+	</div>
+	<div>
+	 Last Name:
+	 <input type='text' name='lname'/>
+	</div>
+	<input type='submit' />
+ </form> -->
+
+
+ <!-- set value amount $50 id is 6234 - taken from the donate form inspect elements. Will have to varify this later. -->
+
+
+<!-- https://donate.parkinson.ca/site/Donation2?df_id=4682&4682.donation=form1&mfc_pref=T&s_locale=en_CA -->
+
+ <form action="QueryString.cgi?df_id=4682&4682.donation=form1">
+	 <label for="set-frequency">Frequency</label>
+	 <select name="frequency" id="set-frequency">
+		 <option value="monthly">Monthly</option>
+		 <option value="one-time">One Time</option>
+	 </select>
+	 <label for="amount">Amount</label>
+	 <select name="amount" id="amount">
+		 <option value="50">$50</option>
+		 <option value="100">$100</option>
+	 </select>
+	 <input type="submit" />
+ </form>

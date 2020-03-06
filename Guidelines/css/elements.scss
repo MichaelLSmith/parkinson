@@ -1,0 +1,18 @@
+/* Knowledge Network */
+.box-blue-background, .box-red-background  {
+  color: white;
+  text-align: center;
+  margin-bottom: .45em;
+  padding: .5em;
+  min-height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.4;
+}
+.box-blue-background {
+  background-color: #075798;
+}
+.box-red-background {
+	background-color: #d50032;
+}

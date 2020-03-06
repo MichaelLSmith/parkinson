@@ -1,0 +1,106 @@
+.hero {
+	background-color: $primary;
+	margin-bottom: 4rem;
+	overflow: hidden;
+	position: relative;
+
+	& > div:not(&__mask):not(&__image) {
+		position: relative;
+		z-index: 3;
+	}
+
+	&__mask {
+		background-color: $primary;
+		background-image: url(./assets/img/overlay.png),
+			linear-gradient(
+				to left,
+				rgba($primary, 1),
+				rgba($primary, 1),
+				rgba($primary, 1),
+				rgba($dark, 0)
+			);
+		background-position: top right;
+		background-repeat: no-repeat;
+		display: none;
+		mix-blend-mode: multiply;
+		height: 100%;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 75%;
+		z-index: 2;
+
+		@include media-breakpoint-up(md) {
+			background-position: initial;
+			display: block;
+		}
+	}
+
+	&__image {
+		background-size: cover;
+		box-shadow: none;
+		height: calc(100% + 5rem);
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+
+		@include media-breakpoint-up(md) {
+			box-shadow: 0 0 2rem 2rem $primary inset;
+			left: -2.5rem;
+			top: -2.5rem;
+			width: 60%;
+		}
+	}
+
+	&__caption {
+		color: $white;
+		@include font-size($h2-font-size);
+		font-style: italic;
+		font-weight: 500;
+		text-align: right;
+		padding: 5rem 0;
+	}
+
+	&__cards {
+		padding: 2rem 0;
+
+		@include media-breakpoint-up(md) {
+			transform: translateY(45%);
+		}
+
+		.card {
+			border: none;
+		}
+	}
+
+	&__title {
+		padding-top: 30rem;
+
+		h1 {
+			background-color: $danger;
+			color: #fff;
+			display: inline-block;
+			margin-bottom: 0;
+			padding: 1rem;
+		}
+	}
+
+	&--home {
+		@include media-breakpoint-up(md) {
+			margin-bottom: 7rem;
+			overflow: visible;
+		}
+		.hero__image {
+			height: 100%;
+		}
+		.hero__mask {
+			display: block;
+			@include media-breakpoint-up(md) {
+				background-position: top left;
+				width: 90%;
+			}
+		}
+	}
+}

@@ -1,0 +1,49 @@
+<style>
+	.x-container.width {
+		margin: 0 auto;
+	}
+	.sw-menu {
+		max-width: 60%;
+		margin: 0 auto 1.5em;
+		font-size: .75em;
+		line-height: 1.2;
+	}
+	.sw-menu div {
+		--color:#0047bb;
+		display:flex;
+		align-items:center;
+		text-align: center;
+	}
+	#gmw-map-wrapper-4 {
+		margin-bottom: 1.5em;
+	}
+	@media (max-width: 768px) { 
+		.sw-menu {
+			max-width: 100%;
+		}
+		.simple-flex {
+			flex-wrap: nowrap;
+		}
+	}
+</style>
+<section style="margin:0 auto 1em auto; max-width: 525px;">
+	<a href="http://donate.parkinson.ca/site/PageNavigator/SuperWalk/Home?s_locale=en_CA" target="_blank" rel="noopener"><img src="/wp-content/uploads/18_PC_SW-TM_Logo-EN-640.png" alt="superwalk logo"></a>
+</section>
+<section class="simple-flex flex-justify-between sw-menu">
+	<div class="light-grey-bkgrd a-no-underline">
+		<a href="/superwalk/about-superwalk/">About SuperWalk</a>
+	</div>
+	<div class="light-grey-bkgrd a-no-underline">
+		<a href="https://www.parkinson.ca/superwalk/?address%5B0%5D&post%5B0%5D=superwalk-location&tax%5Bsw-locations%5D%5B0%5D=146&distance=150&units=metric&per_page=100&lat&lng&form=4">Locations needing <br> Volunteers</a>
+	</div>
+	<div class="light-grey-bkgrd a-no-underline">
+		<a href="http://donate.parkinson.ca/site/PageNavigator/SuperWalk/Home?s_locale=en_CA" target="_blank" rel="noopener">Register or support on<br><span class="park-red-text" style="text-decoration: underline;">www.superwalk.ca</span></a>
+	</div>
+</section>
+<section id="search">
+	[gmw map="4"]
+	[gmw search_form="4"]	
+	<div class="" id="results">
+		[gmw search_results="4"]
+	</div>
+</section>

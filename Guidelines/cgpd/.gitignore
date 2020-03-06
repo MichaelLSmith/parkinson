@@ -1,0 +1,9 @@
+dist
+node_modules
+vendor
+style.css
+script.js
+*error.log
+._DS_Store
+.DS_Store
+stats.json

@@ -1,0 +1,22 @@
+.infographic {
+	margin: 0 auto;
+	margin-bottom: 4rem;
+	max-width: 80%;
+
+	@include media-breakpoint-up(sm) {
+		margin: 0;
+		max-width: none;
+	}
+
+	&__image {
+		display: block;
+		margin: 0 auto 2rem auto;
+		height: auto;
+		max-width: 100%;
+	}
+	&__label {
+		color: $dark;
+		@include font-size(1rem);
+		text-align: center;
+	}
+}

@@ -1,0 +1,10 @@
+event listener
+https://stackoverflow.com/questions/641857/javascript-window-resize-event/32955574
+https://codepen.io/jondlm/pen/doijJ
+
+
+css-tricks:
+
+https://css-tricks.com/scaled-proportional-blocks-with-css-and-javascript/
+https://codepen.io/chriscoyier/pen/VvRoWy
+

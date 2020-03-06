@@ -1,0 +1,34 @@
+/* flex added to the form (custom css in plugin)*/
+
+
+/* To Make horizontal */
+/* 
+empty div after <form>
+div.class=row
+	take flex off
+
+div.form-label-group-float -- take float off
+*/
+
+/* button */
+
+/* 
+div id = submit section
+
+div class = btn-w-100-mobile
+	body=line-height
+	#svy-wrapper -- second div under svy-content div
+		font-size:18px;
+
+*/
+
+/* font size in plugin goes to .bootstrapvyiso -- it is not marked important!
+the placehold font size must be calculated somehow based on the font size. I could use a media query to resize on mobile
+
+
+Space in between First Name and typed in input -- this is in cutom-bootstrap.css - added override into plugin-overrides
+	#svy-wrapper form.wp-svy-form-style .form-label-group-float input:not(:placeholder-shown), #svy-wrapper form.wp-svy-form-style .form-label-group-float-search input:not(:placeholder-shown)
+	
+
+*/
+

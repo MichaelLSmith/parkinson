@@ -1,0 +1,23 @@
+.footer {
+	.row > div:not(:last-child) {
+		.inner {
+			border-right: thin solid $secondary;
+		}
+	}
+
+	// .facebook {
+	// 	color: #4267b2;
+	// }
+
+	// .twitter {
+	// 	color: #14171A;
+	// }
+
+	// .youtube {
+	// 	color: #ff0000;
+	// }
+
+	// .soundcloud {
+	// 	color: #ff3300;
+	// }
+}

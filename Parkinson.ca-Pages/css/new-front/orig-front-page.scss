@@ -1,0 +1,140 @@
+// section 1
+.img-bck {
+	position: relative;
+}
+.img-bck img {
+	opacity: 75%;
+	margin: 0;
+}
+.img-bck-inner-container {
+	position: absolute;
+	top: 10%;
+	right: 5%;
+	left: 50%;
+}
+.img-callout-desktop, .img-callout-mobile, .img-callout-mobile-481 {
+	margin-bottom: 1em;
+	background-color: rgba(204, 204, 204, 0.5);
+}
+.img-callout-desktop {
+	display: block;
+}
+.img-callout-mobile {
+	display: none;
+}
+.img-callout-mobile-481 {
+	display: none;
+}
+
+// section 2
+
+
+
+
+
+// .inline-two-column {
+// 	text-align: center;
+// }
+// .inline-box-left, .inline-box-right {
+// 	display: inline-block;
+// 	max-width: 49%;
+// 	vertical-align: top;
+// 	position: relative;
+// }
+// .inline-box-right {
+// 	margin-left: auto;
+// 	text-align: center;
+// }
+// .inline-box-left {
+// 	margin-right: auto;
+// 	text-align: center;
+// }
+// .img-bck-txt img {
+// 	// border-radius: 10px;
+// }
+// .txt-for-img-bck {
+// 	color: white;
+// 	top: 10%;
+// 	left: 10%;
+// 	max-width: 45%;
+// 	position: absolute;
+// 	transform: translate(0%,0%) scale(1.2);
+// }
+
+// spacing
+// .logo-bck h2 {
+// 	margin: 0;
+// 	color: inherit;
+// }
+// .logo-bck p {
+// 	margin-bottom: 1em;
+// }
+
+// @media only screen and (max-width: 980px) {
+// 	/* logo */
+// 	.inline-box-left, .inline-box-right {
+// 		max-width: 100%;
+// 		display: block;
+// 		margin:auto;
+// 	}
+// 	.inline-two-column {
+// 		text-align: center;
+// 	}
+// 	.logo-bck-inner-container {
+// 		right: 55%;
+// 	}
+// }
+
+@media only screen and (max-width: 767px) {
+	
+	/* Section 1 */
+	.img-callout-desktop {
+		display: none;
+	}
+	.img-callout-mobile {
+		display: block;
+	}
+	.img-bck {
+		font-size: .75em;
+	}
+
+
+
+
+
+
+	// logo background
+	.txt-for-logo-bck-desktop {
+		display: none;
+	}
+	.txt-for-logo-bck-mobile {
+		display: block;
+	}
+	.txt-for-logo-bck-mobile p {
+		margin-bottom: 0;
+	}
+	.logo-bck-inner-container {
+		top: 5%;
+		right: 50%;
+		left: 3%;
+	}
+
+}
+
+@media only screen and (max-width: 615px) {
+	.txt-for-logo-bck-mobile {
+		display: none;
+	}
+	.park-white-btn { 
+		margin-top: 1em;
+	}
+}
+
+@media only screen and (max-width: 481px) {
+	.img-callout-mobile {
+		display: none;
+	} 
+	.img-callout-mobile-481 {
+		display: block;
+	}
+}

@@ -1,0 +1,43 @@
+.accordion {
+	&__button {
+		border: none;
+		border-radius: $border-radius;
+		display: block;
+		padding: 0.5rem 0.7rem;
+		margin-bottom: 1rem;
+		h3 {
+			align-items: center;
+			color: $dark;
+			display: flex;
+			@include font-size(1.375rem);
+			margin-bottom: 0;
+
+			svg {
+				color: $info;
+				margin-right: 1rem;
+			}
+		}
+
+		.fa-plus {
+			display: inline-block;
+		}
+
+		.fa-minus {
+			display: none;
+		}
+
+		&[aria-expanded='true'] {
+			.fa-plus {
+				display: none;
+			}
+
+			.fa-minus {
+				display: inline-block;
+			}
+		}
+	}
+
+	&__content {
+		@include font-size($font-size-md);
+	}
+}

@@ -1,0 +1,1 @@
+I can use the css overrides for the front page middle section as a general override for block column setup. The front page css users a container class to select the children wp-block classes. I could come up with another container class name for a site wide method of setting up columns. It could also be applied to all wp-block classes.

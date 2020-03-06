@@ -1,0 +1,10 @@
+.research-container img {
+  max-height: 200px;
+  width: auto;
+  border-radius: 2%;
+}
+
+.researcher-profile {
+  background-color: hsl(0, 0%, 91%);
+  padding: .75em;
+}

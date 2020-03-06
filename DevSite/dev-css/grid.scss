@@ -1,0 +1,165 @@
+/* grid css */
+
+/* grid settings */
+.grid, .simple-grid {
+  display: inline-block;
+}
+.grid__item {
+	box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  max-width: 20em;
+  margin: 1em 0.5em;
+  text-align: left;
+}
+
+@supports (display:flex) {
+  .grid .simple-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1em 0 1em -0.5em;
+    justify-content: space-around;
+  }
+
+  .grid__item {
+    flex: 1 0 20em;
+    max-width: 20em;
+    width: auto;
+    margin: initial;
+  }
+}
+
+@supports (display:grid) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    grid-gap: 1em;
+		margin: initial;
+		grid-auto-rows: 1fr;
+  }
+  .simple-grid {
+		display: grid;
+  }
+  .sg-repeat {
+    grid-template-columns: repeat( auto-fit, minmax(5em, 1fr) );
+		grid-gap: 1.1em;
+		grid-auto-rows: 1fr;
+  }
+
+.sg-col-var {
+  // style="--cols:1fr 1fr";
+  grid-template-columns: var(--cols);
+}  
+  .sg-3col {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.1em; 
+  }
+  .sg-2col-even {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.1em; 
+  }
+  .sg-2col-75-15 {
+    grid-template-columns: 75% 1fr;
+  }
+  .sg-2col-15-75 {
+    grid-template-columns: 1fr 75%;
+  }
+  .sg-2col-60-1  {
+    grid-template-columns: 60% 1fr;
+  }
+  .grid-gap-half-em {
+    grid-gap: .5em;
+  }
+  .sg-row-gap {
+    grid-row-gap: 1em;
+  }
+  .grid-center-items {
+    justify-items: center;
+  }
+  .griditems-align-center {
+    align-items: center;
+  }
+/* grid items */
+  .grid__item {
+   max-width: none;
+  }
+  .grid__item-align-rt {
+    text-align: right;
+  }
+  .grid__item-align-center {
+    text-align: center;
+  }
+  .center-grid-items .grid__item {
+    text-align: center;
+  }
+  .grid__item-span-3col, .grid__item-span-3col-mobile {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .grid__item-span-2col, .grid__item-span-2col-mobile {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  @media (max-width: 768px) {
+    .sg-2col-even, .sg-2col-even, .sg-3col, .sg-2col-75-15, .sg-2col-15-75, .sg-2col-60-1 {
+      grid-template-columns: 1fr;
+    }
+    .grid__item {
+      margin-bottom: 1em;
+    }
+    .grid__item-align-rt {
+      text-align: center;
+    }
+    .black-border-no-left, .black-border-no-bottom {
+      margin-bottom: 0;
+    }
+    .grid__item-span-2col, .grid__item-span-3col {
+      grid-column-start: 1;
+      grid-column-end: 1;
+    }
+  }
+}
+/* grid borders */
+.black-border-no-bottom {
+  border:1px solid black; 
+  border-bottom:none;
+}
+.black-border-no-left {
+  border:1px solid black; 
+  border-bottom:none;
+  border-left:none;
+}
+
+.black-border-no-left:last-child,
+.black-border-no-bottom:last-child, .black-border-no-bottom:nth-last-child(2) {
+  border-bottom:1px solid black;
+}
+.lightgray-border-no-bottom {
+  border:1px solid lightgray; 
+  border-bottom:none;
+}
+.lightgray-border-no-left {
+  border:1px solid lightgray; 
+  border-bottom:none;
+  border-left:none;
+}
+
+.lightgray-border-no-left:last-child,
+.lightgray-border-no-bottom:last-child, .lightgray-border-no-bottom:nth-last-child(2) {
+  border-bottom:1px solid lightgray;
+}
+// targets microsoft edge which has some problems with grid
+@supports (-ms-ime-align:auto) {
+  .grid, .simple-grid { 
+    display: inline-block; 
+  }
+  .grid__item {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 20em;
+    margin: 1em 0.5em;
+    text-align: left;
+  }
+}

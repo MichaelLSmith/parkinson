@@ -1,0 +1,34 @@
+/* In the custom CSS section of the plugin: */
+
+.ycd_countDown_interval_basic_cont_description { text-shadow: none !important } 
+.ycd_count_text_day { justify-content: center; margin-right:1em; } 
+.ycd_count_text_hour { justify-content: center; margin-right:1em; } 
+.ycd_count_text_minute { justify-content: center; margin-right:1em; } 
+.ycd_count_text_second { justify-content: center; margin-right:1em; }
+
+
+/* countdown options
+
+Days on
+Text: DAYS
+background colour: #54585a
+text colour: #d50032
+number colour: #ffffff
+
+Hours on
+Text: HOURS 
+background colour: #54585a
+text colour: #d50032
+number colour: #ffffff
+
+Minutes on
+Text: MINUTES 
+background colour: #54585a
+text colour: #d50032
+number colour: #ffffff
+
+seconds on
+text: SECONDS 
+background colour: #54585a
+text colour: #d50032
+number colour: #ffffff */
