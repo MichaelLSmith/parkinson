@@ -1,0 +1,59 @@
+//overrides to reset wpblock to be neural at 600px
+//wrap all wpblock elements in .park-block-columns
+@media (min-width: 600px) {
+	.park-block-columns .wp-block-column {
+		flex-basis: 100%;
+	}
+}
+@media (max-width: 599px) {
+	.park-block-columns .wp-block-column {
+		flex-basis: 100%;
+	}
+}
+//overrides to wpblock to change 782 flex wrap to neutral
+@media (min-width: 782px){
+	.park-block-columns .wp-block-columns {
+		flex-wrap: wrap;
+	}
+}
+//wp-block overrides to get rid of the column gutter for the middle section
+@media (min-width: 782px) {
+	.park-block-columns .wp-block-column:not(:first-child) {
+		margin-left: 0px;
+	}
+}
+// my break point for middle section for columns to break at 800px
+//every width 799 and under
+@media (max-width: 799px) {
+	.block-2cols-txt-col {
+		display: block;
+	}
+	.park-block-columns .wp-block-column {
+		flex-basis: 100%;
+	}
+	.block-2cols-right-reorder .block-2cols-left {
+		order: 2;
+	}
+	.block-2cols-right-reorder .block-2cols-right  {
+		order: 1;
+	}
+	.park-block-columns .wp-block-column:nth-child(2n) {
+		margin-left: 0px;
+	}
+	.park-block-columns .wp-block-column {
+		margin-bottom: .13em;
+	}
+}
+//every width 800px and greater
+@media (min-width: 800px) {  
+	.wp-block-columns {
+		flex-wrap: nowrap;
+	}
+	.park-block-columns {
+		// background-color: pink;
+	}
+	.park-block-columns .wp-block-column {
+		flex-basis: calc(50%);
+		flex-grow: 0;
+	}
+}
