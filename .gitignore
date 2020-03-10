@@ -97,7 +97,7 @@ logs
 *.log
 
 #parkinson specific
-/x-parent
+\x-parent
 dump.*
 
 # Ignore the build directory
