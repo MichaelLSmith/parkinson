@@ -4,9 +4,6 @@
 	border: 1px solid #ac1100;
 	border-radius: 0;
 	padding: 0.579em 1.105em 0.579em;
-	// padding: 0.579em 1.105em 0.842em;
-	//padding: 0.563em 1.125em 0.813em;
-
 	border-color: #58595b;
 	background-color: #58595b;
 	cursor: pointer;
@@ -30,8 +27,6 @@
 	border: 1px solid #ac1100;
 	border-radius: 0;
 	padding: 0.579em 1.105em 0.579em;
-	// padding: 0.579em 1.105em 0.842em;
-	//padding: 0.563em 1.125em 0.813em;
 	border-color: rgb(213,0,50);
 	background-color: rgb(213,0,50);
 	cursor: pointer;
@@ -52,14 +47,13 @@
 .park-red-btn-absolute {
 	position: absolute;
 }
+//white button
 .park-white-btn, .park-white-btn-absolute, button.park-white-btn {
 	display: inline-block;
 	position: relative;
 	border: 1px solid #ffffff;
 	border-radius: 10px;
 	padding: 0.579em 1.105em 0.579em;
-	// padding: 0.579em 1.105em 0.842em;
-	//padding: 0.563em 1.125em 0.813em;
 	border-color: #ffffff;
 	background-color: #ffffff;
 	cursor: pointer;
@@ -81,6 +75,43 @@
 .park-white-btn-absolute {
 	position: absolute;
 }
+//c-opn btn - cyan
+.c-opn-blue-btn, button.c-opn-blue-btn, .c-opn-blue-btn-absolute {
+	display: inline-block;
+	position: relative;
+	border: 1px solid $c-opn-cyan;
+	border-radius: 0;
+	padding: 0.579em 1.105em 0.579em;
+	border-color: $c-opn-cyan;
+	background-color: $c-opn-cyan;
+	cursor: pointer;
+	font-weight: inherit;
+	line-height: 1.3;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	color: #ffffff;
+	transition: all 0.15s linear;
+}
+.c-opn-blue-btn:hover, .c-opn-blue-btn-absolute:hover, button.c-opn-blue-btn:hover{ 
+	color: #ffffff;
+	border-color: hsl(358, 68%, 55%);
+	background-color: hsl(358, 68%, 55%);
+	text-shadow: 0 0.075em 0.075em rgba(0,0,0,0.5);
+}
+.c-opn-blue-btn-absolute {
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
 // callout boxes
 .sw-blue-border {
 	border: $s-walk-blue solid .25em;
