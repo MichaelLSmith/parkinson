@@ -124,6 +124,9 @@ i.x-icon-facebook-square:before, i.x-icon-twitter-square:before, i.x-icon-youtub
 }
 
 // footer overrides - for new footer design
+#survey-footer {
+  background-image: none;
+}
 .survey-footer-container {
     text-align: center;
     max-width: 55%;
