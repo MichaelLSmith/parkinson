@@ -16,7 +16,7 @@ get_header(); ?>
 
             <div class="font-size-reset">
               <?php if( types_render_field( 'sg-emergency-announcement', array( ) ) ) :?>
-                <h4><?php echo (types_render_field( 'sg-emergency-announcement', array( ) ) ); ?></h4>
+                <strong class="park-red-text"><?php echo (types_render_field( 'sg-emergency-announcement', array( ) ) ); ?></strong>
               <?php endif; ?>
 
               <?php if( types_render_field( 'address', array( ) ) ) :?>
