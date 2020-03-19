@@ -99,6 +99,7 @@ logs
 #parkinson specific
 \x-parent
 dump.*
+.config
 
 # Ignore the build directory
 \dist
@@ -119,3 +120,4 @@ error_log
 .Trashes
 ehthumbs.db
 Thumbs.db
+*.config
